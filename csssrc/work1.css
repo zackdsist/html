@@ -1,0 +1,103 @@
+@CHARSET "UTF-8";
+@font-face {
+  font-family: 'iconfont';  /* project id 298997 */
+  src: url('//at.alicdn.com/t/font_9j7leoz9q36xn7b9.eot');
+  src: url('//at.alicdn.com/t/font_9j7leoz9q36xn7b9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_9j7leoz9q36xn7b9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_9j7leoz9q36xn7b9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_9j7leoz9q36xn7b9.svg#iconfont') format('svg');
+}
+
+
+.outForm {
+	border-color:black;
+	margin:5px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width: 550px;
+	height: 800px;
+	background-color: black;
+}
+
+.firstForm {
+	position:relative;
+	top:0px;
+	left:0px;
+	width: 100%;
+	height: 20%;
+	background-color: #33CC99;
+}
+
+.imgoutline {
+	margin:auto 0;
+	position: absolute;
+	top:0;
+	bottom:0;
+	left:30px;
+	padding: 1%;
+	height:80%;
+	border-radius: 60%;
+	background-color: #00E3E3;
+}
+
+.img_head {
+	border-radius: 60%;
+	height: 100%;
+	width: 100%;
+}
+
+.text {
+	position: absolute;
+	left: 40%;
+}
+
+.name {
+	top: 30px;
+	width: 100%;
+}
+
+.address {
+	top: 50px;
+	width: 100%;
+}
+
+#buttongroup{
+	position: relative;
+}
+
+#buttongroup button {
+	border-color:black;
+	border-width:3px;
+	position:relative;
+	width: 100%;
+	height: 20%;
+	
+	background-image: url("../img/buttonActive1.jpg");
+	background-color:white;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:contain;
+
+}
+#buttongroup button .photoleft{
+	position:absolute;
+	top:20%;
+	left:5%;
+	background-size:contain;
+	height:80px;
+	width:80px;
+	
+}
+#buttongroup button .text{
+	position: absolute;
+	top:50%;
+	left:25%;
+}
+#buttongroup button .textright{
+	position: absolute;
+	top:50%;
+	right:10%;
+	background-color: 	#00BBFF;
+}
+
